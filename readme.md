@@ -1,5 +1,5 @@
 ## Introduction
-* This repository provides codes for bulding a strongly-connected approximete kNN graph and a distance-based outlier detection algorithm on it.
+* This repository provides codes for a distance-based outlier detection algorithm on a strongly-connected approximate kNN graph.
    * Outliers are defined as objects whose distance to their k-th NN is top-N among a set of object.
 * Our algorithm supports metric space.
     * Our codes implement L2 (Euclidean distance), L1 (Manhattan distance), Edit distance, angular distance, and L4 distance by default.
@@ -12,6 +12,7 @@
 
 ## How to use
 * Before running our DOD algorithm, build a strongly-connected approximete kNN graph.
+  * This can be obtained from https://github.com/amgt-d1/DOD.
 * Parameter configuration can be done via txt files in `parameter` directory.
 * Data files have to be at `dataset` directory.
    * You can implement data input in as you like manner at input_data() function in data.hpp.

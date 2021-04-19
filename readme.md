@@ -12,9 +12,9 @@
 
 ## How to use
 * Before running our DOD algorithm, build a strongly-connected approximete kNN graph.
-  * This can be obtained from https://github.com/amgt-d1/DOD.
-  * Uncomment `connect_graph()`, `remove_detour()`, and `remove_edges()` in `mrpg.hpp`.
+  * For example, this can be obtained from https://github.com/amgt-d1/DOD, and uncomment `connect_graph()`, `remove_detour()`, and `remove_edges()` in `mrpg.hpp`.
+  * Update input_graph() in `data.hpp`.
 * Parameter configuration can be done via txt files in `parameter` directory.
 * Data files have to be at `dataset` directory.
-   * You can implement data input in as you like manner at input_data() function in data.hpp.
+   * You can implement data input in as you like manner at input_data() function in `data.hpp`.
    * Now dataset directory contains a dummy file only.

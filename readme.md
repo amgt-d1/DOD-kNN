@@ -18,3 +18,14 @@
 * Data files have to be at `dataset` directory.
    * You can implement data input in as you like manner at input_data() function in `data.hpp`.
    * Now dataset directory contains a dummy file only.
+
+
+## Citation
+If you use our implementation, please cite the following paper.
+``` 
+
+``` 
+
+## License
+Copyright (c) 2021 Daichi Amagata  
+This software is released under the [MIT license](https://github.com/amgt-d1/DOD-kNN/blob/main/license.txt).

@@ -18,6 +18,8 @@
 * Data files have to be at `dataset` directory.
    * You can implement data input in as you like manner at input_data() function in `data.hpp`.
    * Now dataset directory contains a dummy file only.
+* Compile: `g++ -O3 -o progrand.out main.cpp -std=c++11 -fopenmp -Wall`.
+* Run: `./progrand.out`.
 
 
 ## Citation

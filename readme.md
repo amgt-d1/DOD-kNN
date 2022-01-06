@@ -25,7 +25,15 @@
 ## Citation
 If you use our implementation, please cite the following paper.
 ``` 
-
+@article{amagata2022dod,  
+    title={Fast, Exact, and Parallel-friendly Outlier Detection Algorithms with Proximity Graph in Metric Spaces},  
+    author={Amagata, Daichi and Onizuka, Makoto and Hara, Takahiro},  
+    journal={The VLDB Journal},
+    volume={},
+    number={},
+    pages={xx--xx},  
+    year={2022}  
+}
 ``` 
 
 ## License
